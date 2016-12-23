@@ -7,7 +7,7 @@ func main(){
 	// http://localhost:5700/api/user/42
 	// Method: "GET"
 	iris.Get("/", func(ctx *iris.Context){
-		ctx.Text(iris.StatusOK, "Hello World!")
+		ctx.Text(iris.StatusOK, "Hello Worldd!")
 	})
 
 	iris.Listen("0.0.0.0:7777")
