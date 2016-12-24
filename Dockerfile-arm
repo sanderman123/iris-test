@@ -1,0 +1,5 @@
+FROM hypriot/rpi-alpine:3.4
+WORKDIR /app
+# copy binary into image
+COPY helloworld-arm /app/
+ENTRYPOINT ["./helloworld-arm"]
